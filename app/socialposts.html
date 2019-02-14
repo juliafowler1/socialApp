@@ -1,0 +1,18 @@
+<!-- memorize how to set up array of objects with ng-repeat -->
+<div class="appContainer">
+    <div class="titleContainer">
+        <h4>My Thoughts</h4>
+    </div>
+    <div class="buttonContainer"><button ng-click="$ctrl.showForm()">New Thought</button>
+    </div>
+
+    <div class="thoughts">
+        <section ng-repeat="post in $ctrl.postsLibrary track by $index">
+            <post posts-library="post" remove-post="$ctrl.removePost(index)"></post>
+        </section>
+    </div>
+</div>
+
+<!-- adding the functionality  -->
+<post-form add-post="$ctrl.addPost(newPost)" form-toggle="$ctrl.formToggle" show-form="$ctrl.showForm()">
+</post-form>

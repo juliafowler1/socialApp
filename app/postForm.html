@@ -1,0 +1,12 @@
+<div class="submit">
+    <form 
+    ng-show="$ctrl.formToggle" 
+    class="popup" 
+    ng-submit="$ctrl.addPost({newPost: $ctrl.newPost})">
+        <input id="input1" expand-on-focus type="text" placeholder="Post title" ng-model="$ctrl.newPost.title">
+        <p class="thought">Thought</p>
+        <textarea id="input2" expand-on-focus rows="4" cols="50" placeholder="Thought"
+            ng-model="$ctrl.newPost.thought"></textarea>
+        <button class="addpost">Add Post</button>
+    </form>
+</div>

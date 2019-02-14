@@ -1,0 +1,88 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+h4 {
+    color: rgb(3, 169, 244);
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.65em;
+
+}
+.thoughts {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.tweet{
+    margin-left: 10px;
+}
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+.buttonContainer button {
+width: 60%;
+margin-bottom: 20px;
+background-color: white;
+border: solid black 1px;
+border-radius: 10px;
+height: 40px;
+}
+.thoughts {
+    border: black solid;
+}
+.appContainer {
+    background-color: #f3f1f7;
+}
+.titleContainer {
+    display: flex;
+}
+.popup {
+    background-color: #B1DDEA;
+    position: absolute;
+    z-index: 3;
+    left: 220px;
+    bottom: 180px;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+input, textarea, .thought, .addpost {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.addpost {
+background-color: white;
+border: solid black 1px;
+border-radius: 10px;
+height: 40px;
+}
+.xbutton {
+    display: flex;
+    justify-content: flex-end;
+    align-content: stretch;
+    margin-right: 20px;
+    
+}
+.xbutton button {
+    border: none;
+    background-color: white;
+}
